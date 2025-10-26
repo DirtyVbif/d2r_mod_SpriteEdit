@@ -322,7 +322,7 @@ namespace D2RModding_SpriteEdit
         private void importToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenFileDialog dlg = new OpenFileDialog();
-            dlg.Filter = "BMP|*.bmp|GIF|*.gif|JPG|*.jpg;*.jpeg|PNG|*.png|TIFF|*.tif;*.tiff|"
+            dlg.Filter = "PNG|*.png|BMP|*.bmp|GIF|*.gif|JPG|*.jpg;*.jpeg|TIFF|*.tif;*.tiff|"
                 + "All Graphics Types|*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff|"
                 + "All Files (*.*)|*.*";
             dlg.DefaultExt = "*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff";
@@ -346,7 +346,7 @@ namespace D2RModding_SpriteEdit
         private void exportToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SaveFileDialog dlg = new SaveFileDialog();
-            dlg.Filter = "BMP|*.bmp|GIF|*.gif|JPG|*.jpg;*.jpeg|PNG|*.png|TIFF|*.tif;*.tiff|"
+            dlg.Filter = "PNG|*.png|BMP|*.bmp|GIF|*.gif|JPG|*.jpg;*.jpeg|TIFF|*.tif;*.tiff|"
                 + "All Graphics Types|*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff|"
                 + "All Files (*.*)|*.*";
             dlg.DefaultExt = "*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff";
@@ -656,7 +656,7 @@ namespace D2RModding_SpriteEdit
         {
             OpenFileDialog dlg = new OpenFileDialog();
             dlg.Multiselect = true;
-            dlg.Filter = "BMP|*.bmp|GIF|*.gif|JPG|*.jpg;*.jpeg|PNG|*.png|TIFF|*.tif;*.tiff|"
+            dlg.Filter = "PNG|*.png|BMP|*.bmp|GIF|*.gif|JPG|*.jpg;*.jpeg|TIFF|*.tif;*.tiff|"
                 + "All Graphics Types|*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff|"
                 + "All Files (*.*)|*.*";
             dlg.DefaultExt = "*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff";
@@ -696,7 +696,7 @@ namespace D2RModding_SpriteEdit
 
             OpenFileDialog dlg = new OpenFileDialog();
             dlg.Multiselect = true;
-            dlg.Filter = "BMP|*.bmp|GIF|*.gif|JPG|*.jpg;*.jpeg|PNG|*.png|TIFF|*.tif;*.tiff|"
+            dlg.Filter = "PNG|*.png|BMP|*.bmp|GIF|*.gif|JPG|*.jpg;*.jpeg|TIFF|*.tif;*.tiff|"
                 + "All Graphics Types|*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff|"
                 + "All Files (*.*)|*.*";
             dlg.DefaultExt = "*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff";
@@ -737,7 +737,7 @@ namespace D2RModding_SpriteEdit
         {
             OpenFileDialog dlg = new OpenFileDialog();
             dlg.Multiselect = true;
-            dlg.Filter = "BMP|*.bmp|GIF|*.gif|JPG|*.jpg;*.jpeg|PNG|*.png|TIFF|*.tif;*.tiff|"
+            dlg.Filter = "PNG|*.png|BMP|*.bmp|GIF|*.gif|JPG|*.jpg;*.jpeg|TIFF|*.tif;*.tiff|"
                 + "All Graphics Types|*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff|"
                 + "All Files (*.*)|*.*";
             dlg.DefaultExt = "*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff";
@@ -768,7 +768,7 @@ namespace D2RModding_SpriteEdit
             }
 
             SaveFileDialog dlg = new SaveFileDialog();
-            dlg.Filter = "BMP|*.bmp|GIF|*.gif|JPG|*.jpg;*.jpeg|PNG|*.png|TIFF|*.tif;*.tiff|"
+            dlg.Filter = "PNG|*.png|BMP|*.bmp|GIF|*.gif|JPG|*.jpg;*.jpeg|TIFF|*.tif;*.tiff|"
                 + "All Graphics Types|*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff|"
                 + "All Files (*.*)|*.*";
             dlg.DefaultExt = "*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff";
@@ -800,7 +800,7 @@ namespace D2RModding_SpriteEdit
             }
 
             SaveFileDialog dlg = new SaveFileDialog();
-            dlg.Filter = "BMP|*.bmp|GIF|*.gif|JPG|*.jpg;*.jpeg|PNG|*.png|TIFF|*.tif;*.tiff|"
+            dlg.Filter = "PNG|*.png|BMP|*.bmp|GIF|*.gif|JPG|*.jpg;*.jpeg|TIFF|*.tif;*.tiff|"
                 + "All Graphics Types|*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff|"
                 + "All Files (*.*)|*.*";
             dlg.DefaultExt = "*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff";
